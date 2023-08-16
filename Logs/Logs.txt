@@ -1,0 +1,186 @@
+[1692206123.062][INFO]: Starting Microsoft Edge WebDriver 115.0.1901.203 (a5a2b1779bcfe71f081bc9104cca968d420a89ac) on port 50155
+[1692206123.062][INFO]: Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+[1692206123.247][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "MicrosoftEdge",
+         "ms:edgeOptions": {
+            "args": [ "--start-maximize", "--headless" ]
+         }
+      } ]
+   }
+}
+[1692206123.255][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1692206123.256][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1692206123.261][INFO]: Launching Microsoft Edge: "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --headless --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximize --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Sarath\AppData\Local\Temp\scoped_dir8332_1790344047" data:,
+[1692206123.747][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1692206123.794][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "msedge",
+      "browserVersion": "115.0.1901.203",
+      "ms:edgeOptions": {
+         "debuggerAddress": "localhost:50158"
+      },
+      "msedge": {
+         "msedgedriverVersion": "115.0.1901.203 (a5a2b1779bcfe71f081bc9104cca968d420a89ac)",
+         "userDataDir": "C:\\Users\\Sarath\\AppData\\Local\\Temp\\scoped_dir8332_1790344047"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "6fe4a668ed7c32441bc50cafb592efc1"
+}
+[1692206123.817][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] COMMAND Navigate {
+   "url": "https://www.saucedemo.com/"
+}
+[1692206123.817][INFO]: Waiting for pending navigations...
+[1692206123.823][INFO]: Done waiting for pending navigations. Status: ok
+[1692206126.786][INFO]: Waiting for pending navigations...
+[1692206127.519][INFO]: Done waiting for pending navigations. Status: ok
+[1692206127.519][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] RESPONSE Navigate
+[1692206127.593][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] COMMAND SetTimeouts {
+   "implicit": 5000
+}
+[1692206127.593][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] RESPONSE SetTimeouts
+[1692206127.621][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#user\\-name"
+}
+[1692206127.621][INFO]: Waiting for pending navigations...
+[1692206127.622][INFO]: Done waiting for pending navigations. Status: ok
+[1692206127.632][INFO]: Waiting for pending navigations...
+[1692206127.632][INFO]: Done waiting for pending navigations. Status: ok
+[1692206127.632][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3DE5BD7EFC25BE8CAA7C84611284DEDC_element_7"
+}
+[1692206127.637][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] COMMAND TypeElement {
+   "id": "3DE5BD7EFC25BE8CAA7C84611284DEDC_element_7",
+   "text": "standard_user",
+   "value": [ "s", "t", "a", "n", "d", "a", "r", "d", "_", "u", "s", "e", "r" ]
+}
+[1692206127.637][INFO]: Waiting for pending navigations...
+[1692206127.637][INFO]: Done waiting for pending navigations. Status: ok
+[1692206127.711][INFO]: Waiting for pending navigations...
+[1692206127.713][INFO]: Done waiting for pending navigations. Status: ok
+[1692206127.713][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] RESPONSE TypeElement
+[1692206127.714][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#password"
+}
+[1692206127.714][INFO]: Waiting for pending navigations...
+[1692206127.714][INFO]: Done waiting for pending navigations. Status: ok
+[1692206127.724][INFO]: Waiting for pending navigations...
+[1692206127.724][INFO]: Done waiting for pending navigations. Status: ok
+[1692206127.724][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3DE5BD7EFC25BE8CAA7C84611284DEDC_element_9"
+}
+[1692206127.726][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] COMMAND TypeElement {
+   "id": "3DE5BD7EFC25BE8CAA7C84611284DEDC_element_9",
+   "text": "secret_sauce",
+   "value": [ "s", "e", "c", "r", "e", "t", "_", "s", "a", "u", "c", "e" ]
+}
+[1692206127.726][INFO]: Waiting for pending navigations...
+[1692206127.726][INFO]: Done waiting for pending navigations. Status: ok
+[1692206127.783][INFO]: Waiting for pending navigations...
+[1692206127.784][INFO]: Done waiting for pending navigations. Status: ok
+[1692206127.784][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] RESPONSE TypeElement
+[1692206127.785][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#login\\-button"
+}
+[1692206127.785][INFO]: Waiting for pending navigations...
+[1692206127.786][INFO]: Done waiting for pending navigations. Status: ok
+[1692206127.796][INFO]: Waiting for pending navigations...
+[1692206127.797][INFO]: Done waiting for pending navigations. Status: ok
+[1692206127.797][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3DE5BD7EFC25BE8CAA7C84611284DEDC_element_3"
+}
+[1692206127.798][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] COMMAND ClickElement {
+   "id": "3DE5BD7EFC25BE8CAA7C84611284DEDC_element_3"
+}
+[1692206127.798][INFO]: Waiting for pending navigations...
+[1692206127.799][INFO]: Done waiting for pending navigations. Status: ok
+[1692206127.879][INFO]: Waiting for pending navigations...
+[1692206127.888][INFO]: Done waiting for pending navigations. Status: ok
+[1692206127.888][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] RESPONSE ClickElement
+[1692206127.905][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] COMMAND Quit {
+}
+[1692206127.917][INFO]: [6fe4a668ed7c32441bc50cafb592efc1] RESPONSE Quit
